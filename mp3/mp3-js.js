@@ -10,12 +10,27 @@
 //         //     mp3 += '</div>';
 //         //     content += mp3;
 //         // }
-//
+//             var mp3Item = '<div>';
+//             // mp3Item += jsObject.thumbnail;
+//             mp3Item += '<img onclick="doSomething()" src="http://static.amusic.vn/amusic/albums/s2/10/82660/82660.jpg?v=1523961932">';
+//             mp3Item += '</div>';
+//             document.body.innerHTML = mp3Item;
 //     }
 // }
 // xhtp.open("GET", MP3_API, true);
 // xhtp.send();
-span.onclick = function () {
-    myModal.style.display = 'none';
-    mp3Scr.src = '';
-};
+// var myModal = document.getElementById(myModal);
+// var mp3Scr = document.getElementById(mp3Scr);
+// var span = document.getElementsByClassName("close")[0];
+// document.getElementByIfunction doSomething() {
+//     mp3Scr.src = 'https://s1.vocaroo.com/media/download_temp/Vocaroo_s1cqKcLqsxJ5.mp3';
+//     myModal.style.display = 'block';
+// }
+// span.onclick = function () {
+//     myModal.style.display = 'none';
+//     mp3Scr.src = '';
+// };
+var mp3Scr = document.getElementById(mp3Scr);
+function fun() {
+    mp3Src.src = 'https://s1.vocaroo.com/media/download_temp/Vocaroo_s1cqKcLqsxJ5.mp3';
+}
